@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>[匈牙利算法-最小覆盖点]POJ3041题解</title>
+    <url>/post1/2021/01/16/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;cstdio&gt;</span><br><span class="line">#include&lt;cstring&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">const int maxn&#x3D;500+10;</span><br><span class="line"></span><br><span class="line">struct Max_Match</span><br><span class="line">&#123;</span><br><span class="line">    int n;</span><br><span class="line">    bool g[maxn][maxn];</span><br><span class="line">    bool vis[maxn];</span><br><span class="line">    int left[maxn];</span><br><span class="line"></span><br><span class="line">    void init(int n)</span><br><span class="line">    &#123;</span><br><span class="line">        this-&gt;n&#x3D;n;</span><br><span class="line">        memset(g,0,sizeof(g));</span><br><span class="line">        memset(left,-1,sizeof(left));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    bool match(int u)</span><br><span class="line">    &#123;</span><br><span class="line">        for(int v&#x3D;1;v&lt;&#x3D;n;v++)if(g[u][v] &amp;&amp; !vis[v])</span><br><span class="line">        &#123;</span><br><span class="line">            vis[v]&#x3D;true;</span><br><span class="line">            if(left[v]&#x3D;&#x3D;-1 || match(left[v]))</span><br><span class="line">            &#123;</span><br><span class="line">                left[v]&#x3D;u;</span><br><span class="line">                return true;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        return false;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    int solve()</span><br><span class="line">    &#123;</span><br><span class="line">        int ans&#x3D;0;</span><br><span class="line">        for(int i&#x3D;1;i&lt;&#x3D;n;i++)</span><br><span class="line">        &#123;</span><br><span class="line">            memset(vis,0,sizeof(vis));</span><br><span class="line">            if(match(i)) ans++;</span><br><span class="line">        &#125;</span><br><span class="line">        return ans;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;MM;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int n,k;</span><br><span class="line">    scanf(&quot;%d%d&quot;,&amp;n,&amp;k);</span><br><span class="line">    MM.init(n);</span><br><span class="line">    while(k--)</span><br><span class="line">    &#123;</span><br><span class="line">        int u,v;</span><br><span class="line">        scanf(&quot;%d%d&quot;,&amp;u,&amp;v);</span><br><span class="line">        MM.g[u][v]&#x3D;true;</span><br><span class="line">    &#125;</span><br><span class="line">    printf(&quot;%d\n&quot;,MM.solve());</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="参考博客"><a href="#参考博客" class="headerlink" title="参考博客"></a><a href="http://www.luogu.com.cn/blog/Xchkoo/">参考博客</a></h3>]]></content>
+      <categories>
+        <category>图论</category>
+        <category>匈牙利算法</category>
+      </categories>
+      <tags>
+        <tag>图论</tag>
+        <tag>匈牙利算法</tag>
+        <tag>最小覆盖点</tag>
+        <tag>题解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>爷 有 片 头 了 ！！！</title>
+    <url>/post2/2021/01/16/</url>
+    <content><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=798539826&cid=279518850&page=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>]]></content>
+      <tags>
+        <tag>bilibili</tag>
+        <tag>csgo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>We have a simple ARG here!</title>
+    <url>/post3/2021/01/23/</url>
+    <content><![CDATA[<h2 id="0876"><a href="#0876" class="headerlink" title="0876***%"></a>0876***%</h2>]]></content>
+      <tags>
+        <tag>ARG</tag>
+      </tags>
+  </entry>
+</search>
