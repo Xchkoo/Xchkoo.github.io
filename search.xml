@@ -61,152 +61,63 @@
       </tags>
   </entry>
   <entry>
-    <title>test2</title>
-    <url>/2021-02-02-1/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test12</title>
-    <url>/2021-02-02-11/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test13</title>
-    <url>/2021-02-02-12/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test11</title>
-    <url>/2021-02-02-10/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test15</title>
-    <url>/2021-02-02-14/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test14</title>
-    <url>/2021-02-02-13/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test17</title>
-    <url>/2021-02-02-16/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test16</title>
-    <url>/2021-02-02-15/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test18</title>
-    <url>/2021-02-02-17/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test19</title>
-    <url>/2021-02-02-18/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test20</title>
-    <url>/2021-02-02-19/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test3</title>
-    <url>/2021-02-02-2/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test22</title>
-    <url>/2021-02-02-21/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test21</title>
-    <url>/2021-02-02-20/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test23</title>
-    <url>/2021-02-02-22/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test24</title>
-    <url>/2021-02-02-23/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test25</title>
-    <url>/2021-02-02-24/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test26</title>
-    <url>/2021-02-02-25/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test27</title>
-    <url>/2021-02-02-26/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test28</title>
-    <url>/2021-02-02-27/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test29</title>
-    <url>/2021-02-02-28/2021/02/02/</url>
-    <content><![CDATA[<p>$$<br>\alpha            \theta        o                 \upsilon \<br>\beta             \vartheta \pi             \phi \<br>\gamma             \iota         \varpi         \varphi \<br>\delta             \kappa         \rho             \chi \<br>\epsilon         \lambda     \varrho     \psi \<br>\varepsilon \mu             \sigma         \omega \<br>\zeta             \nu             \varsigma \<br>\eta                 \xi             \tau<br>$$</p>
-]]></content>
+    <title>[归并排序]luogu-P1908逆序对 题解</title>
+    <url>/MergeSort/2021/02/04/</url>
+    <content><![CDATA[<h2 id="מּ-מּ-！-color-darkviolet-归并排序"><a href="#מּ-מּ-！-color-darkviolet-归并排序" class="headerlink" title="( מּ,_מּ)！$\color{darkviolet}{归并排序}$"></a>( מּ,_מּ)！$\color{darkviolet}{归并排序}$</h2><h4 id="1-归并排序简介"><a href="#1-归并排序简介" class="headerlink" title="1. 归并排序简介"></a>1. 归并排序简介</h4><blockquote>
+<p>归并排序（Merge Sort）是建立在归并操作上的一种有效，稳定的排序算法，$\color{red}{该算法是采用分治法（Divide and Conquer）的一个非常典型的应用。}$将已有序的子序列合并，得到完全有序的序列；即先使每个子序列有序，再使子序列段间有序。若将两个有序表合并成一个有序表，称为二路归并。<p align="right">————百度百科</p></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th align="center">复杂度</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">时间复杂度</td>
+<td align="center">$\mathcal{O}(nlogn)$</td>
+</tr>
+<tr>
+<td align="center">空间复杂度</td>
+<td align="center">$\mathcal{T}(n)$</td>
+</tr>
+</tbody></table>
+<img src="/img/post/MergeSort_2021-02-04/mergesort.webp" alt ="原理图解" />
+
+<p>归并排序简要概括一下就是————两个步骤：二分 -&gt; 合并(排序的重要步骤)</p>
+<h4 id="2-归并排序原理"><a href="#2-归并排序原理" class="headerlink" title="2. 归并排序原理"></a>2. 归并排序原理</h4><h5 id="1-二分"><a href="#1-二分" class="headerlink" title="1. 二分"></a>1. 二分</h5><p>正如简介所言，归并排序函数<code>void msort(int b,int e)</code>是一个递归函数。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">      <span class="keyword">if</span>(b == e)</span><br><span class="line"><span class="keyword">return</span>;</span><br><span class="line">  <span class="keyword">int</span> mid=(b+e)/<span class="number">2</span>,i=b,j=mid+<span class="number">1</span>,k=b;</span><br><span class="line">  msort(b,mid),msort(mid+<span class="number">1</span>,e);</span><br><span class="line">  <span class="comment">//理解递归只需知道你设计这个递归函数的功能，中间的递归过程就不用管了。</span></span><br></pre></td></tr></table></figure>
+<p>这一步进行递归二分数组直到不可再分 即b(begin)指针和e(end)指针指向同一位置。</p>
+<ol start="2">
+<li>合并<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(i &lt;= mid&amp;&amp;j &lt;= e)</span><br><span class="line">   	<span class="keyword">if</span>(o[i]&lt;=o[j])</span><br><span class="line">   		tem[k++]=o[i++];</span><br><span class="line">   	<span class="keyword">else</span></span><br><span class="line">   		tem[k++]=o[j++];</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+i,j是指向左数组和右数组的开头的指针<br>在合并时我们遵守一个原则：将左边的和右边的元素比较，谁小谁先进数组。<br>逻辑上分为：<center>
+$\color{green}{1. i < j 且 a[i] < a[j]时 我们将i指向的元素保存至临时数组tem中。}$
+$\color{green}{2. i < j 且 a[i] > a[j]时 我们将j指向的元素保存至临时数组tem中。}$
+</center>
+可是这样轮次放置，可能会出现一边的数组先轮完了，这就是第2、3个while，轮完就意味着不需要再比较了，可以直接放入。
+<center>$\color{green}{3. i <= mid 的情况 就直接tem[k++]=o[i++];}$
+$\color{green}{   j <= e 的情况   tem[k++]=o[j++];}$</center>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(i&lt;=mid)</span><br><span class="line">	tem[k++]=o[i++];</span><br><span class="line"><span class="keyword">while</span>(j&lt;=e)</span><br><span class="line">	tem[k++]=o[j++];</span><br></pre></td></tr></table></figure>
+别忘了我们的数组是放在临时数组里的，结束时要放回主数组，毕竟接下来还要递归。
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> l=b;l&lt;=e;l++)</span><br><span class="line">	o[l]=tem[l];</span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<h4 id="3-原题-amp-AC代码"><a href="#3-原题-amp-AC代码" class="headerlink" title="3. 原题&amp;AC代码"></a>3. <a href="https://www.luogu.com.cn/problem/P1908">原题</a>&amp;AC代码</h4><p>解题思路:<br>逆序对就是$1，2，3，4，5$这样顺的数组中出了一个二五仔（如 ${1，2，3，5，4}$ 的情况 ${5，4}$ 就算一组逆序对）,那么二五仔的数量就是我们在归并时else的情况的集合。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(i &lt;= mid&amp;&amp;j &lt;= e)</span><br><span class="line">    	<span class="keyword">if</span>(o[i]&lt;=o[j])</span><br><span class="line">    		tem[k++]=o[i++];</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		tem[k++]=o[j++],ans+=mid-i+<span class="number">1</span>;</span><br></pre></td></tr></table></figure>
+<p>所以，逆序对的数量实际上就是我们将数组归并排序时发生交换的元素数量。<br>只要在归并排序的源码上加上计算ans的步骤就行了。</p>
+<p>$\color{red}{AC代码}$：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment"> * © Copyright 2021 Xchkoo All rights reserved.</span></span><br><span class="line"><span class="comment"> * Author: Xchkoo</span></span><br><span class="line"><span class="comment"> * Date: 2021-02-04 5:40</span></span><br><span class="line"><span class="comment"> * LISENSE: CC v4.0 BY-SA https://creativecommons.org/licenses/by-sa/4.0/deed.zh</span></span><br><span class="line"><span class="comment"> * Remark: Thanks for viewing XD</span></span><br><span class="line"><span class="comment"> * Welcome to my blog -&gt; Xchkoo.top </span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> N 500010</span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">int</span> n;</span><br><span class="line"><span class="keyword">int</span> o[N];<span class="comment">//Main</span></span><br><span class="line"><span class="keyword">int</span> tem[N];<span class="comment">//Temporary</span></span><br><span class="line"><span class="keyword">long</span> <span class="keyword">long</span> ans;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">msort</span><span class="params">(<span class="keyword">int</span> b,<span class="keyword">int</span> e)</span><span class="comment">// b = begin e = end</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(b == e)</span><br><span class="line">		<span class="keyword">return</span>;</span><br><span class="line">    <span class="keyword">int</span> mid=(b+e)/<span class="number">2</span>,i=b,j=mid+<span class="number">1</span>,k=b;</span><br><span class="line">    msort(b,mid),msort(mid+<span class="number">1</span>,e);</span><br><span class="line">    <span class="keyword">while</span>(i &lt;= mid&amp;&amp;j &lt;= e)</span><br><span class="line">    	<span class="keyword">if</span>(o[i]&lt;=o[j])</span><br><span class="line">    		tem[k++]=o[i++];</span><br><span class="line">    	<span class="keyword">else</span></span><br><span class="line">    		tem[k++]=o[j++],ans+=mid-i+<span class="number">1</span>;<span class="comment">//count answer</span></span><br><span class="line">    <span class="keyword">while</span>(i&lt;=mid)</span><br><span class="line">    	tem[k++]=o[i++];</span><br><span class="line">    <span class="keyword">while</span>(j&lt;=e)</span><br><span class="line">    	tem[k++]=o[j++];</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> l=b;l&lt;=e;l++)</span><br><span class="line">    	o[l]=tem[l];</span><br><span class="line">&#125;           </span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    ios::sync_with_stdio(<span class="literal">false</span>);</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; n;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">        <span class="built_in">cin</span> &gt;&gt; o[i];</span><br><span class="line">    &#125;</span><br><span class="line">    msort(<span class="number">1</span>,n);</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; ans;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>排序</category>
+        <category>归并排序</category>
+      </categories>
       <tags>
-        <tag>mathjax-test</tag>
+        <tag>题解</tag>
+        <tag>排序</tag>
+        <tag>归并排序</tag>
+        <tag>luogu-P1908 逆序对</tag>
+        <tag>Mergesort</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>test4</title>
-    <url>/2021-02-02-3/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test5</title>
-    <url>/2021-02-02-4/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test6</title>
-    <url>/2021-02-02-5/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test7</title>
-    <url>/2021-02-02-6/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test8</title>
-    <url>/2021-02-02-7/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test9</title>
-    <url>/2021-02-02-8/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test1</title>
-    <url>/2021-02-02/2021/02/02/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title>test10</title>
-    <url>/2021-02-02-9/2021/02/02/</url>
-    <content><![CDATA[]]></content>
   </entry>
 </search>
