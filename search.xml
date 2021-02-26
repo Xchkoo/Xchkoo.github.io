@@ -37,6 +37,21 @@
       </tags>
   </entry>
   <entry>
+    <title>ReDen it</title>
+    <url>/ReDen-it/2021/02/26/</url>
+    <content><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=886892272&cid=303122741&page=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+
+
+<p> <a href="http://xchkoo.github.io/ReDen-it/2021/02/26/">http://xchkoo.github.io/ReDen-it/2021/02/26/</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a><br>本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
+]]></content>
+      <categories>
+        <category>bilibili</category>
+      </categories>
+      <tags>
+        <tag>bilibili</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>[归并排序]luogu-P1908逆序对 题解</title>
     <url>/MergeSort/2021/02/04/</url>
     <content><![CDATA[<h2 id="מּ-מּ-！-color-darkviolet-归并排序"><a href="#מּ-מּ-！-color-darkviolet-归并排序" class="headerlink" title="( מּ,_מּ)！$\color{darkviolet}{归并排序}$"></a>( מּ,_מּ)！$\color{darkviolet}{归并排序}$</h2><h4 id="1-归并排序简介"><a href="#1-归并排序简介" class="headerlink" title="1. 归并排序简介"></a>1. 归并排序简介</h4><blockquote>
@@ -95,21 +110,6 @@ $\color{green}{2. i < j 且 a[i] > a[j]时 我们将j指向的元素保存至临
         <tag>luogu-P1908 逆序对</tag>
         <tag>题解</tag>
         <tag>Mergesort</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ReDen it</title>
-    <url>/ReDen-it/2021/02/26/</url>
-    <content><![CDATA[<iframe src="//player.bilibili.com/player.html?aid=886892272&cid=303122741&page=1&danmaku=0" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
-
-
-<p> <a href="http://xchkoo.github.io/ReDen-it/2021/02/26/">http://xchkoo.github.io/ReDen-it/2021/02/26/</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a><br>本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
-]]></content>
-      <categories>
-        <category>bilibili</category>
-      </categories>
-      <tags>
-        <tag>bilibili</tag>
       </tags>
   </entry>
   <entry>
@@ -172,15 +172,6 @@ $\color{green}{2. i < j 且 a[i] > a[j]时 我们将j指向的元素保存至临
       </tags>
   </entry>
   <entry>
-    <title>We have a simple ARG here!</title>
-    <url>/post3/2021/01/16/</url>
-    <content><![CDATA[<h2 id="0876"><a href="#0876" class="headerlink" title="0876***%"></a>0876***%</h2><p> <a href="http://xchkoo.github.io/post3/2021/01/16/">http://xchkoo.github.io/post3/2021/01/16/</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a><br>本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
-]]></content>
-      <tags>
-        <tag>ARG</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>[匈牙利算法-最小覆盖点]POJ3041题解</title>
     <url>/post1/2021/01/16/</url>
     <content><![CDATA[<h2 id="最小点覆盖"><a href="#最小点覆盖" class="headerlink" title="最小点覆盖"></a>最小点覆盖</h2><h4 id="例题-POJ3041"><a href="#例题-POJ3041" class="headerlink" title="例题: POJ3041"></a><font color="red" size="3">例题</font>: <a href="http://poj.org/problem?id=3041">POJ3041</a></h4><h4 id="理解：-有图G-U-V-，求删去最小点可删去所有边的步骤即求最小点覆盖的过程"><a href="#理解：-有图G-U-V-，求删去最小点可删去所有边的步骤即求最小点覆盖的过程" class="headerlink" title="理解： 有图G{U,V}，求删去最小点可删去所有边的步骤即求最小点覆盖的过程"></a><font color="red" size="3">理解</font>： 有图G{U,V}，求删去最小点可删去所有边的步骤即求最小点覆盖的过程</h4><hr>
@@ -202,6 +193,15 @@ $\color{green}{2. i < j 且 a[i] > a[j]时 我们将j指向的元素保存至临
         <tag>图论</tag>
         <tag>匈牙利算法</tag>
         <tag>最小覆盖点</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>We have a simple ARG here!</title>
+    <url>/post3/2021/01/16/</url>
+    <content><![CDATA[<h2 id="0876"><a href="#0876" class="headerlink" title="0876***%"></a>0876***%</h2><p> <a href="http://xchkoo.github.io/post3/2021/01/16/">http://xchkoo.github.io/post3/2021/01/16/</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a><br>本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
+]]></content>
+      <tags>
+        <tag>ARG</tag>
       </tags>
   </entry>
 </search>
