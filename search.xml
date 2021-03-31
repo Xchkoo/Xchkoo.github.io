@@ -231,4 +231,57 @@ $\color{green}{2. i < j 且 a[i] > a[j]时 我们将j指向的元素保存至临
         <tag>ARG</tag>
       </tags>
   </entry>
+  <entry>
+    <title>myplan</title>
+    <url>/myplan/2021/03/31/</url>
+    <content><![CDATA[<h1 id="学习计划"><a href="#学习计划" class="headerlink" title="学习计划"></a>学习计划</h1><ul>
+<li><p>日语学习</p>
+<blockquote>
+<ol>
+<li>目标完成初级上册的学习</li>
+<li>目标看懂《游戏人生》日版1-2册</li>
+<li>目标在洛谷翻译一道日语题</li>
+</ol>
+</blockquote>
+</li>
+<li><p>前端学习</p>
+<blockquote>
+<ol>
+<li>hexo的博客更新</li>
+<li>vue和react等主流框架的学习</li>
+<li>项目的完善</li>
+</ol>
+</blockquote>
+</li>
+<li><p>算法学习</p>
+<blockquote>
+<ol>
+<li><a href="https://www.luogu.com.cn/training/9391">https://www.luogu.com.cn/training/9391</a><br>综合题单的学习</li>
+<li>线段树、ddp、倍增……</li>
+</ol>
+</blockquote>
+</li>
+<li><p>游戏框架学习</p>
+<blockquote>
+<ol>
+<li>unity 2d</li>
+<li>虚幻4 2d<br><a href="https://www.unrealengine.com/zh-CN/learn">https://www.unrealengine.com/zh-CN/learn</a></li>
+</ol>
+</blockquote>
+</li>
+<li><p>ae、pr学习</p>
+</li>
+<li><p>音乐制作学习</p>
+</li>
+</ul>
+<p> <a href="http://xchkoo.github.io/myplan/2021/03/31/">http://xchkoo.github.io/myplan/2021/03/31/</a> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"></a><br>本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
+]]></content>
+      <categories>
+        <category>计划</category>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+      </tags>
+  </entry>
 </search>
