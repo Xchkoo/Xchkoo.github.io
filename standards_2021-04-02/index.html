@@ -81,11 +81,12 @@
 </li>
 <li><p>代码块后应空一行，文件结束处应换行（遵循python规范）。</p>
 </li>
-<li><p>所有注释都应该是/* … */ 不能出现//。</p>
+<li><p>所有注释都应该是/* … */，不能出现// 。</p>
+</li>
+<li><p>在例如oi等算法题程序不能使用linker的项目中必须将cpp文件分为3个块(block)：全局变量声明块、函数与类块、main块。<br>应用/* … <em>/包括起来，使用类似jinja2的语法。但start和end要大写。<br>块与块之间要有两行空行。<br>例：/</em> START global variate block */<br> ….<br> /* END global variate block */</p>
 </li>
 </ol>
-<p>6.<br>在例如oi等算法题程序不能使用linker的项目中必须将cpp文件分为3个块(block)：全局变量声明块、函数与类块、main块。<br>应用/**/包括起来，使用类似jinja2的语法。但start和end要大写。<br>块与块之间要有两行空行。<br>例：/* START global variate block <em>/<br>    ….<br>    /</em> END global variate block */</p>
-<p>块内可以有小块(part),小块之间用一行空行分隔。<br>例：/* START tree part */<br>    …<br>    /<em>END</em>/<br>tips:在jinja2中，end不需要但提倡写出block名。</p>
+<p>块内可以有小块(part),小块之间用一行空行分隔。<br>例：/* START tree part <em>/<br>    …<br>    /</em> END */<br>tips:在jinja2中，end不需要但提倡写出block名。</p>
 <h3 id="二、-color-darkviolet-变量"><a href="#二、-color-darkviolet-变量" class="headerlink" title="二、 $\color{darkviolet}{变量}$"></a>二、 $\color{darkviolet}{变量}$</h3><ol>
 <li><p>绝对不可出现毫无意义的缩写如next-&gt;nxt，但广为使用的number-&gt;num是合理的。</p>
 </li>
