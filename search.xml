@@ -402,13 +402,13 @@ int main()
 </li>
 <li><p>绝对不可用拼音命名变量（同理于函数和类）但是用日语罗马字应大加赞赏。</p>
 </li>
-<li><p>变量命名不提倡驼峰，应使用_且只能使用_分割单词。（驼峰命名法应该在变量名过长有过多_时使用）注意！：-及——非法。</p>
+<li><p>变量命名不提倡驼峰命名法，应使用蛇形命名法且只能使用_分割单词。（驼峰命名法应该在变量名过长有过多_时使用）注意！：-及——非法。</p>
 </li>
 </ol>
 <h3 id="三、-color-darkviolet-函数和类"><a href="#三、-color-darkviolet-函数和类" class="headerlink" title="三、  $\color{darkviolet}{函数和类}$"></a>三、  $\color{darkviolet}{函数和类}$</h3><ol>
 <li><p>函数应同理于python，在开头使用注释编写帮助文档：<br>/* 在此处写下帮助文档 */ 。</p>
 </li>
-<li><p>类中的变量和方法应该命名为“simplifiedClassName_funcName”。</p>
+<li><p>类中的变量和方法应该命名为“simplifiedClassName_name”。</p>
 </li>
 <li><p>类名应大写首字母。</p>
 </li>
