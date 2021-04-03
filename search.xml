@@ -439,7 +439,7 @@ int main()
   </entry>
   <entry>
     <title>我愿称之为超级缝合怪——本人2021代码规范</title>
-    <url>//code_standards_2021/</url>
+    <url>/standards_2021-04-02/</url>
     <content><![CDATA[<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>为防止coding过程中码风的不断切换导致的可读性差，本人特意编写了一套主要继承于python、go语法和GNU\LINUX规范的代码规范。</p>
 <hr>
 
@@ -483,8 +483,8 @@ int main()
 </li>
 </ol>
 <h3 id="四、-color-darkviolet-命名空间"><a href="#四、-color-darkviolet-命名空间" class="headerlink" title="四、 $\color{darkviolet}{命名空间}$"></a>四、 $\color{darkviolet}{命名空间}$</h3><p>  不应为了强行跟上C#而不使用全局命名空间，在oi题中已遵循剃刀原则即使用namespace std。</p>
-<h4 id="Xchkoo-reserves-all-the-right-for-the-final-explanation"><a href="#Xchkoo-reserves-all-the-right-for-the-final-explanation" class="headerlink" title="*** Xchkoo reserves all the right for the final explanation ***"></a>*** <span align="center">Xchkoo reserves all the right for the final explanation </span>***</h4><p><img src="/code_standards_2021/1.webp" alt="配图"></p>
-<p> <a href="http://xchkoo.github.io//code_standards_2021/">http://xchkoo.github.io//code_standards_2021/</a> 本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
+<h4 id="Xchkoo-reserves-all-the-right-for-the-final-explanation"><a href="#Xchkoo-reserves-all-the-right-for-the-final-explanation" class="headerlink" title="*** Xchkoo reserves all the right for the final explanation ***"></a>*** <span align="center">Xchkoo reserves all the right for the final explanation </span>***</h4><p><img src="/standards_2021-04-02/1.webp" alt="配图"></p>
+<p> <a href="http://xchkoo.github.io/standards_2021-04-02/">http://xchkoo.github.io/standards_2021-04-02/</a> 本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
 ]]></content>
       <categories>
         <category>coding</category>
