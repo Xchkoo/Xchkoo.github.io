@@ -77,17 +77,24 @@
 </li>
 <li><p>所有逗号后都应该有一个空格。</p>
 </li>
-<li><p>规定TAB == 4个空格，不应连续出现2个以上的空格。</p>
+<li><p>规定TAB键是4个空格，不应连续出现2个以上的空格。</p>
 </li>
 <li><p>代码块后应空一行，文件结束处应换行（遵循python规范）。</p>
 </li>
-<li><p>所有注释都应该是/* … */，不能出现// 。</p>
+<li><p>所有注释都应该是<code>/* ... */</code>，不能出现<code>//</code> 。</p>
 </li>
-<li><p>在例如oi等算法题程序不能使用linker的项目中必须将cpp文件分为3个块(block)：全局变量声明块、函数与类块、main块。<br>应用/* … <em>/包括起来，使用类似jinja2的语法。但start和end要大写。<br>块与块之间要有两行空行。<br>例：/</em> START global variate block */<br> ….<br> /* END global variate block */</p>
-</li>
-</ol>
-<p>块内可以有小块(part),小块之间用一行空行分隔。<br>例：/* START tree part <em>/<br>    …<br>    /</em> END */<br>tips:在jinja2中，end不需要但提倡写出block名。</p>
-<h3 id="二、-color-darkviolet-变量"><a href="#二、-color-darkviolet-变量" class="headerlink" title="二、 $\color{darkviolet}{变量}$"></a>二、 $\color{darkviolet}{变量}$</h3><ol>
+<li><p>在例如oi等算法题程序不能使用linker的项目中必须将cpp文件分为3个块(block)：全局变量声明块、函数与类块、main块。<br>应用<code>/* ... */</code>包括起来，使用类似jinja2的语法。但start和end要大写。<br>块与块之间要有两行空行。<br>例：</p>
+<pre><code>/* START global variate block */
+ ....    
+/* END global variate block */
+</code></pre>
+<p>块内可以有小块(part),小块之间用一行空行分隔。<br>例：</p>
+<pre><code>/* START tree part */
+...
+/* END */
+</code></pre>
+<p>tips:在jinja2中，end不需要但提倡写出block名。</p>
+<h3 id="二、-color-darkviolet-变量"><a href="#二、-color-darkviolet-变量" class="headerlink" title="二、 $\color{darkviolet}{变量}$"></a>二、 $\color{darkviolet}{变量}$</h3></li>
 <li><p>绝对不可出现毫无意义的缩写如next-&gt;nxt，但广为使用的number-&gt;num是合理的。</p>
 </li>
 <li><p>绝对不可用拼音命名变量（同理于函数和类）但是用日语罗马字应大加赞赏。</p>
@@ -96,11 +103,13 @@
 </li>
 </ol>
 <h3 id="三、-color-darkviolet-语句、函数和类"><a href="#三、-color-darkviolet-语句、函数和类" class="headerlink" title="三、  $\color{darkviolet}{语句、函数和类}$"></a>三、  $\color{darkviolet}{语句、函数和类}$</h3><ol>
-<li><p>若语句为单行 应只在块和语句中加一个空格<br>例：if(…) continue;</p>
+<li><p>若语句为单行 应只在块和语句中加一个空格<br>例：<code>if(...) continue;</code></p>
 </li>
-<li><p>函数应同理于python，在开头使用注释编写帮助文档：<br>/* 在此处写下帮助文档 */ 。</p>
+<li><p>函数应同理于python，在开头使用注释编写帮助文档：</p>
+<pre><code>/* 在此处写下帮助文档 */ 。
+</code></pre>
 </li>
-<li><p>类中的变量和方法应该命名为“simplifiedClassName_name”。</p>
+<li><p>类中的变量和方法应该命名为<code>simplifiedClassName_name</code>。</p>
 </li>
 <li><p>类名应大写首字母。</p>
 </li>
@@ -111,8 +120,10 @@
 <li><p>类应尽量富鲁棒性。</p>
 </li>
 </ol>
-<h3 id="四、-color-darkviolet-命名空间"><a href="#四、-color-darkviolet-命名空间" class="headerlink" title="四、 $\color{darkviolet}{命名空间}$"></a>四、 $\color{darkviolet}{命名空间}$</h3><p>  不应为了强行跟上C#而不使用全局命名空间，在oi题中已遵循剃刀原则即使用namespace std。</p>
-<h4 id="Xchkoo-reserves-all-the-right-for-the-final-explanation"><a href="#Xchkoo-reserves-all-the-right-for-the-final-explanation" class="headerlink" title="*** Xchkoo reserves all the right for the final explanation ***"></a>*** <span align="center">Xchkoo reserves all the right for the final explanation </span>***</h4><p><img src="/standards_2021-04-02/1.webp" alt="配图"></p>
+<h3 id="四、-color-darkviolet-命名空间"><a href="#四、-color-darkviolet-命名空间" class="headerlink" title="四、 $\color{darkviolet}{命名空间}$"></a>四、 $\color{darkviolet}{命名空间}$</h3><p>  在oi题中应遵循剃刀原则即使用<code>using namespace std</code>。<br>  在项目中应使用<code>std::</code>。</p>
+<h4 id="Xchkoo-reserves-all-the-right-for-the-final-explanation"><a href="#Xchkoo-reserves-all-the-right-for-the-final-explanation" class="headerlink" title="*** Xchkoo reserves all the right for the final explanation ***"></a><div align="justify" style="color:red;">*** Xchkoo reserves all the right for the final explanation ***</div></h4><hr>
+
+<p><img src="/standards_2021-04-02/1.webp" alt="配图"></p>
 <p> <a href="http://xchkoo.github.io/standards_2021-04-02/">http://xchkoo.github.io/standards_2021-04-02/</a> 本作品采用<a rel="license noopener" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
