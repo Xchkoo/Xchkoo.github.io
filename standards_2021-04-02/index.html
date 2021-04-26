@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>我愿称之为超级缝合怪——本人2021代码规范 - Xchkoo&#39;s blog</title>
+    <title>2021代码规范 - Xchkoo&#39;s blog</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
@@ -44,7 +44,7 @@
     <div class="bar" style="width: 0;"></div>
     <a class="iconfont icon-home image-icon" href="javascript:;" data-url="http://xchkoo.github.io"></a>
     <div title="播放/暂停" class="iconfont icon-play"></div>
-    <h3 class="subtitle">我愿称之为超级缝合怪——本人2021代码规范</h3>
+    <h3 class="subtitle">2021代码规范</h3>
     <div class="social">
         <div>
             <div class="share">
@@ -59,7 +59,7 @@
     <div class="section">
         <div class="article">
     <div class='main'>
-        <h1 class="title">我愿称之为超级缝合怪——本人2021代码规范</h1>
+        <h1 class="title">2021代码规范</h1>
         <div class="stuff">
             <span>四月 02, 2021</span>
             
@@ -84,15 +84,9 @@
 <li><p>所有注释都应该是<code>/* ... */</code>，不能出现<code>//</code> 。</p>
 </li>
 <li><p>在例如oi等算法题程序不能使用linker的项目中必须将cpp文件分为3个块(block)：全局变量声明块、函数与类块、main块。<br>应用<code>/* ... */</code>包括起来，使用类似jinja2的语法。但start和end要大写。<br>块与块之间要有两行空行。<br>例：</p>
-<pre><code>/* START global variate block */
- ....    
-/* END global variate block */
-</code></pre>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">/* START global variate block */</span></span><br><span class="line">    ....    </span><br><span class="line"><span class="regexp">/* END global variate block */</span></span><br></pre></td></tr></table></figure>
 <p>块内可以有小块(part),小块之间用一行空行分隔。<br>例：</p>
-<pre><code>/* START tree part */
-...
-/* END */
-</code></pre>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">/* START tree part */</span></span><br><span class="line">...</span><br><span class="line"><span class="regexp">/* END */</span></span><br></pre></td></tr></table></figure>
 <p>tips:在jinja2中，end不需要但提倡写出block名。</p>
 <h3 id="二、-color-darkviolet-变量"><a href="#二、-color-darkviolet-变量" class="headerlink" title="二、 $\color{darkviolet}{变量}$"></a>二、 $\color{darkviolet}{变量}$</h3></li>
 <li><p>绝对不可出现毫无意义的缩写如next-&gt;nxt，但广为使用的number-&gt;num是合理的。</p>
@@ -106,9 +100,7 @@
 <li><p>若语句为单行 应只在块和语句中加一个空格<br>例：<code>if(...) continue;</code></p>
 </li>
 <li><p>函数应同理于python，在开头使用注释编写帮助文档：</p>
-<pre><code>/* 在此处写下帮助文档 */ 。
-</code></pre>
-</li>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">/* 在此处写下帮助文档 */</span> 。</span><br></pre></td></tr></table></figure></li>
 <li><p>类中的变量和方法应该命名为<code>simplifiedClassName_name</code>。</p>
 </li>
 <li><p>类名应大写首字母。</p>
